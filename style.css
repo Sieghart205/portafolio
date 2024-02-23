@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "poppins", Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
 }
 
 .hero{
@@ -11,7 +11,8 @@
     justify-content: center;
     align-items: center;
     gap: 150px;
-
+    animation: spawn-background;
+    animation-duration: 2s;
 }
 
 .info{
@@ -26,6 +27,7 @@
     font-weight: bolder;
     margin-left: 10px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .title{
@@ -33,11 +35,14 @@
     text-transform: uppercase;
     color:#EBE552;
     font-weight: bold;
+    font-family: "Anta";
+    letter-spacing: 5px;
 }
 
 .info h3{
     text-transform: uppercase;
     color:#EBE552;
+    font-family: "Anta";
 }
 
 .img {
@@ -53,3 +58,57 @@
     border-radius: 100%;
 }
 
+
+header{
+    padding: 50px;
+    background-color: #EBE552;
+}
+
+header nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:50px;
+    
+}
+
+header nav a{
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.parraf{
+    padding:50px;
+}
+
+.slider{
+    width: 70vw;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.slider img{
+    width: 0;
+    object-fit: cover;
+    flex-grow: 1;
+    opacity: .5;
+    transition: .5s ease;
+}
+
+.slider img:hover{
+    width: 230px;
+    opacity: 1;
+    cursor: grab;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: #615B6B;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #9C9952;
+}

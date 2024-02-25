@@ -1,7 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "poppins", Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+#nombre{
+    margin: 15px 0 15px 0px;
+    text-transform: uppercase;
+    color:#EBE552;
+    font-weight: bold;
+    font-family: "Anta";
+    letter-spacing: 5px;
 }
 
 .hero{
@@ -11,8 +14,7 @@
     justify-content: center;
     align-items: center;
     gap: 150px;
-    animation: spawn-background;
-    animation-duration: 2s;
+    object-fit: cover;
 }
 
 .info{
@@ -59,26 +61,6 @@
 }
 
 
-header{
-    padding: 50px;
-    background-color: #EBE552;
-}
-
-header nav{
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    flex-wrap: wrap;
-    gap:50px;
-    
-}
-
-header nav a{
-    color: #000;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
 .parraf{
     padding:50px;
 }
@@ -104,11 +86,13 @@ header nav a{
     cursor: grab;
 }
 
-::-webkit-scrollbar{
-    width: 7px;
-    background-color: #615B6B;
+header{
+    background-color: #fff;
+    padding: 50px;
+    transition: .5s ease;
 }
 
-::-webkit-scrollbar-thumb{
-    background-color: #9C9952;
+.abajo{
+    background-color: #EBE552;
+    padding: 40px;
 }

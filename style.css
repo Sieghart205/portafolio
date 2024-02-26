@@ -9,7 +9,7 @@
 
 .hero{
     max-width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,4 +95,55 @@ header{
 .abajo{
     background-color: #EBE552;
     padding: 40px;
+}
+
+@media (max-width:618px){
+    .hero{
+        gap:50px
+    }
+
+    .img img{
+        aspect-ratio: 1/1;
+        width:40vw;
+        object-fit: cover;
+    }
+
+    .slider{
+        height: 150px;
+    }
+
+    .slider img:hover{
+        width: 100px;
+    }
+}
+
+@media (max-width:545px){
+    .hero{
+        gap: 10px;
+    }
+    
+}
+
+@media (max-width:441px){
+    .hero{
+        padding: 25px;
+        gap:5px
+    }
+
+    .img img{
+        width: 45vw;
+    }
+
+    .text{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:395px){
+    .text{
+        font-size: 10px;
+    }
+    .slider img:hover{
+        width: 50px;
+    }
 }

@@ -1,3 +1,5 @@
+ruta = "../../img";
+
 let tween= gsap.from(".tecno",{
     duration:0.5,
     y:200,

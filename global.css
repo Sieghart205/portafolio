@@ -9,6 +9,9 @@ body{
 }
 
 header{
+    display: flex;
+    align-items: center;
+    justify-content: right;
     padding: 40px;
     background-color: #EBE552;
 }
@@ -41,4 +44,65 @@ header nav a:hover{
 
 ::-webkit-scrollbar-thumb{
     background-color: #9C9952;
+}
+
+#barras{
+    height: 100%;
+    width: 40px;
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;   
+    opacity: 0;
+}
+
+@media (max-width:545px){
+
+
+    header{
+        display: flex;
+        height: 40px;
+        justify-content: left;
+    }
+
+    #barras{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        opacity: 1;
+        transition: .5s ease;
+    }
+
+    header nav{
+        justify-content: left;
+        scale: 0;
+        background-color: #EBE552;
+        border: 5px solid #000;
+        transition: .5s ease;
+        padding: 25px;
+        width: 30vw;
+        border-radius: 50px;
+    }
+
+    .active{
+        margin-top: 200px;
+        scale: 1;
+        z-index: 2;
+    }
+}
+
+@media (max-width:441px){
+    p{
+        font-size: 15px;
+    }
+
+    header nav{
+        width: 20vw;
+    }
+}
+
+@media (max-width:395px){
+    header nav a{
+        font-size: 10px;
+        font-weight: bold;
+    }
 }

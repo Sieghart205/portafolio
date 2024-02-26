@@ -4,6 +4,10 @@
     font-family: "poppins", Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
 }
 
+body{
+    background-color: #e8e8e8;
+}
+
 header{
     padding: 40px;
     background-color: #EBE552;

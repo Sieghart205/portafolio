@@ -64,6 +64,13 @@
     cursor: crosshair;
 }
 
+iframe{
+    border: none;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+
 @media (max-width:745px){
     
 }

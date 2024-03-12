@@ -1,5 +1,10 @@
 ruta = "../../img";
 
+gsap.from(".texto",{
+    scale:0,
+    duration:2,
+})
+
 let tween= gsap.from(".tecno",{
     duration:0.5,
     y:200,

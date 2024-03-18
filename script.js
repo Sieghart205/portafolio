@@ -56,5 +56,5 @@ p.addEventListener("click",()=>{
 
 window.addEventListener("scroll",()=>{
     let header = document.getElementById("header");
-    header.classList.toggle("abajo",window.scrollY>100);
+    header.classList.toggle("abajo",window.scrollY>0);
 })

@@ -87,14 +87,14 @@
 }
 
 header{
-    background-color: #fff;
-    padding: 50px;
+    background-color: #8267AB;
     transition: .5s ease;
 }
 
 .abajo{
     background-color: #EBE552;
-    padding: 40px;
+    position: fixed;
+    width: 100vw;
 }
 
 @media (max-width:618px){

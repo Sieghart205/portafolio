@@ -28,10 +28,11 @@ header nav{
 }
 
 header nav a{
-    color: #000;
     text-transform: uppercase;
     text-decoration: none;
     transition: .2s ea;
+    font-weight: 600;
+    color: #000;
 }
 
 header nav a:hover{
